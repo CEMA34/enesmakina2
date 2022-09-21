@@ -236,6 +236,11 @@ ul a:hover{
     color: white;
 }
 
+.detail-tag{
+    text-decoration: none;
+    color: #acacac;
+}
+
 .content hr{
     height: 1px;
     color:  #000;
