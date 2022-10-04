@@ -7,7 +7,7 @@ body{
     background-color: #f1f1f1;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
-    
+    background-color: #EFEFEF;
 }
 
 /* index.html starts from here */
@@ -575,6 +575,19 @@ place-items: center;
     object-fit:cover;
 }
 
+
+/* parkur.html starts from here */
+
+.parkur-main-first-div{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(4, 1fr);
+}
+
+.parkur-main-first-div img{
+    padding: 0.5em;
+    border-radius: 12px;
+}
 
 
 
