@@ -4,6 +4,7 @@
 
 body{
     margin: 0;
+    padding: 0;
     background-color: #f1f1f1;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
@@ -34,8 +35,9 @@ nav{
     padding: 0.4em;
     display: flex;
     justify-content: center;
-    
 }
+
+
 ul{
     display: flex;
     font-size: 15px;
@@ -44,7 +46,8 @@ ul{
 ul li{
     list-style: none;
     font-weight: 700;
-    padding-right: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 ul a {
@@ -122,6 +125,26 @@ ul a:hover{
         opacity: 1;
     }
 }
+
+.thumbnail-images{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    z-index: 1;
+    bottom: 5px;
+}
+
+.thumbnail-images img{
+    width: 80px;
+    border-radius:none;
+    margin-left: 1em;
+}
+
+.thumbnail-images-active{
+    border: 3px solid #ee3523;
+    opacity: 0.5;
+}
+
 
 .main-menu{
     display: flex;
@@ -595,6 +618,10 @@ grid-template-rows: repeat(4, 1fr);
     .container{
         flex-direction: column;
         width: 100%;
+    }
+
+    .thumbnail-images{
+        display: none;
     }
 
     .nav-title{

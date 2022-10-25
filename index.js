@@ -1,6 +1,7 @@
 const nextButton = document.querySelector(".carousel-item-next")
 const prevButton = document.querySelector(".carousel-item-prev")
 const slides = document.getElementsByClassName("carousel-item")
+const thumbnailImage = document.querySelectorAll(".thumbnailImage")
 
 const totalSlides = slides.length
 let slidePosition = 0
@@ -8,8 +9,11 @@ let slidePosition = 0
 function hideAllSlides() {
     for (let slide of slides) {
         slide.classList.remove('carousel-item-visible');
-        slide.classList.add('carousel-item-hidden');
-        
+        slide.classList.add('carousel-item-hidden');   
+    }
+
+    for (let images of thumbnailImage) {
+        images.classList.remove("thumbnail-images-active")
     }
 }
 
@@ -23,6 +27,7 @@ function moveToNextSlide() {
         slidePosition += 1
     }
     slides[slidePosition].classList.add("carousel-item-visible")
+    thumbnailImage[slidePosition].classList.add("thumbnail-images-active")
 }
 
 function moveToPrevSlide() {
@@ -35,6 +40,7 @@ function moveToPrevSlide() {
         slidePosition -= 1
     }
     slides[slidePosition].classList.add("carousel-item-visible")
+    thumbnailImage[slidePosition].classList.add("thumbnail-images-active")
 }
 
 setInterval(() => {
