@@ -47,7 +47,7 @@ setInterval(() => {
     return(
         moveToNextSlide()
     )
-},4000)
+},6000)
 
 prevButton.addEventListener("click", moveToPrevSlide)
 nextButton.addEventListener("click", moveToNextSlide)
