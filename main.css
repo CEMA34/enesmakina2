@@ -21,12 +21,12 @@ img{
 nav{
     text-align: center;
     padding: 0.5em;
-    background-image: linear-gradient(to right, #FDFCFB, #FAF7F0);
+    background-image: linear-gradient(to right, #815B5B, #E6CBA8);
 }
 
 .nav-title{
     margin: 0;
-    color: #ee3523;
+    color: #000;
 }
 
 .container{
@@ -62,7 +62,7 @@ ul a:hover{
 }
 
 .nav-title-span{
-    color: #ee3523;;
+    color: #000;
 }
 
 .carousel {
