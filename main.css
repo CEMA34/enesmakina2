@@ -387,6 +387,11 @@ footer p{
     object-fit:cover;
 }
 
+.quality-video{
+    object-fit: cover;
+    height: 60vh;
+}
+
 .quality-first-div{
     display: flex;
     flex-direction: column;
@@ -566,12 +571,13 @@ grid-row-gap: 50px;
 
 .gallery img{
     width: 270px;
-    height: 370px;
+    height: 350px;
     margin: 0 auto;
     border: 5px solid #333;
     border-radius: 7px;
     transition: all .3s ease;
     cursor: pointer;
+    
 }
 
 .gallery img:hover{
