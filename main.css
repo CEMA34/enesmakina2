@@ -778,6 +778,14 @@ grid-template-rows: repeat(4, 1fr);
         flex-direction: column;
     }
 
+
+    #gmap_canvas{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+       
+    }
+
     .input{
         margin-top: 0;
         margin-bottom: 2em;
@@ -839,6 +847,31 @@ grid-template-rows: repeat(4, 1fr);
     .container ul a li{
         margin: 0;
         margin-right: 3em;
+    }
+
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .gallery img{
+        width: 250px;
+        height: 300px;
+    }
+
+    .videos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video-title{
+        width: 100%;
+        margin: 2em auto auto auto;
+    }
+
+    .videos video{
+        margin-top: 2em;
     }
 
 
