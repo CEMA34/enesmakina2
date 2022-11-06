@@ -778,12 +778,19 @@ grid-template-rows: repeat(4, 1fr);
         flex-direction: column;
     }
 
+    .mapouter{
+        max-width: 80%;
+    }
+
+    .mapouter h1{
+        text-align: center;
+    }
+    
 
     #gmap_canvas{
-        width: 90%;
+        width: 400px;
         margin: 0 auto;
         display: block;
-       
     }
 
     .input{
