@@ -618,9 +618,22 @@ gap: 10px;
 padding: 1em;
 }
 
+.parkur-main-first-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 .parkur-main-first-div img{
     border-radius: 12px;
     border: #E6CBA8 4px solid;
+    width: 570px;
+    height: 400px;
+}
+
+.parkur-main-first-div .slide-9{
+  object-fit: fill;
 }
 
 
